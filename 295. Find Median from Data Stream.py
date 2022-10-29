@@ -1,5 +1,10 @@
 class MedianFinder:
-    #IDEA : we will have 2 heaps small and large
+    #IDEA : 
+    # To calculate the median, we can maintain divide array into subarray equally:
+    # small and large. All elements in small are no larger than any element in large. So median 
+    #would be (largest in small + smallest in large) / 2 if small's size = large's size.
+    # If large's size = small's size + 1, median is smallest in large.
+    # we will have 2 heaps small and large
     # if an element is less than the largest in small w
     # we push to small else to large
     # once we do that we balance number of elements in small and large 
