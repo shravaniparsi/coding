@@ -112,12 +112,38 @@ Heap is binary tree where parent element is always smaller/greater than it's chi
 - Implementation: https://github.com/shravaniparsi/coding/blob/main/heap.py
 
 # 9. Linked List Data Structure
+*Time:
+- Search - 0(n)
+- Insert - O(1)
+- Delete - O(1)
+*Space - O(n)
 
+linked list implementation and sums: 
+- https://github.com/shravaniparsi/coding/blob/main/linked_list.py 
+- https://github.com/shravaniparsi/coding/blob/main/double_linked_list.py
+- https://github.com/shravaniparsi/coding/blob/main/circular_linked_list.py
 
+# 10. Trees
 
-merge sort
-quick sort
-heap sort
+## Traversals
+inorder, preorder and post order
+
+# 11. Graphs
+BFS, DFS
+
+Time complexity of BFS and DFS is O(V + E), where V is the number of nodes and E is the number of edges.
+
+The space complexity of the algorithm is O(V).
+
+# Merge sort
+O(log n)
+Implementation: 
+# Quick sort
+O(n^2) - time complexity O(log n) - space complexity
+# heap sort
+O(nlog n) - time complexity O(1) - space complexity
+# Binary search
+O(log n) - time complexity O(1) - space complexity
 ordered dict
 collections
 
