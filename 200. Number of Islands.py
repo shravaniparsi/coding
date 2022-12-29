@@ -30,3 +30,5 @@ class Solution:
                     numberofislands += 1
         return numberofislands
         
+# Time: O(NM) N number of rows, M number of cols
+# Space: O(NM)
