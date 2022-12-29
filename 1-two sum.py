@@ -8,3 +8,4 @@ class Solution:
                 dict[nums[i]] = i
                 
         
+# Accessing Python dictionaries is O(1) time
